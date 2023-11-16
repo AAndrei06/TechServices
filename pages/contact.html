@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+		<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+		</script>
+		<script type="text/javascript">
+		   (function(){
+		      emailjs.init("qwM7CxJ6-sge3zJxy");
+		   })();
+		</script>
+		<link rel="stylesheet" type="text/css" href="../style/index.css">
+		<script defer type="text/javascript" src = "../js/index.js"></script>
+		<title></title>
+	</head>
+	<body>
+		<header>
+			<div class = "image-div">
+				<a href = "../index.html"><img src="../images/logo.png" height="100"></a>
+				<h1>TechServices</h1>
+			</div>
+			<div class = "menu-items">
+				<a href="contact.html">Contacte</a>
+				<a href="about.html">FAQ</a>
+			</div>
+		</header>
+		<main>
+			<div class="contact-form">
+				<input type="text" id = "name-inp" class = "input-cls" placeholder="Introdu numele și prenumele">
+				<input type="text" id = "email-inp" class = "input-cls" placeholder="Introdu adresa de email">
+				<textarea id = "text-inp" class = "text-area" placeholder="Introdu ceva text..."></textarea>
+				<div class="div-btn">
+					<button class = "btn-send-email" id = "send-e">Trimite!</button>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
