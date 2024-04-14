@@ -12,7 +12,7 @@ function sendMail(){
 	}
 
 	const serviceID = "service_7xkz7zk";
-	const templateID = "template_xzg5mud";
+	const templateID = "template_rcxsuof";
 	if (params.name != "" && params.email != "" && params.message != ""){
 		emailjs.send(serviceID,templateID,params).then(() => {
 			alert("Trimis cu succes!!!");
